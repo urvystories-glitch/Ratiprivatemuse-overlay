@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ratiprivatemuse Overlay</title>
+<style>
+html,body{
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+background:transparent;
+overflow:hidden;
+}
+
+body{
+position:relative;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+.frame{
+position:absolute;
+inset:0;
+border:8px solid #d4af37;
+border-radius:30px;
+box-shadow:
+0 0 20px #ffd700,
+inset 0 0 30px rgba(255,215,0,.35);
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+
+from{
+box-shadow:
+0 0 15px gold,
+inset 0 0 20px rgba(255,215,0,.25);
+}
+
+to{
+box-shadow:
+0 0 35px gold,
+inset 0 0 45px rgba(255,215,0,.55);
+}
+
+}
+
+.title{
+position:absolute;
+top:20px;
+width:100%;
+text-align:center;
+font-size:40px;
+font-weight:bold;
+color:#e8c96b;
+text-shadow:0 0 15px gold;
+}
+
+.tag{
+position:absolute;
+top:70px;
+width:100%;
+text-align:center;
+color:white;
+letter-spacing:3px;
+font-size:16px;
+}
+
+.bottom{
+position:absolute;
+bottom:18px;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+gap:12px;
+}
+
+.box{
+padding:12px 18px;
+border:2px solid gold;
+border-radius:14px;
+background:rgba(0,0,0,.55);
+color:#ffd86b;
+font-size:18px;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="frame"></div>
+
+<div class="title">
+RATIPRIVATEMUSE
+</div>
+
+<div class="tag">
+Luxury • Exclusive • Premium
+</div>
+
+<div class="bottom">
+
+<div class="box">
+💌 DM
+</div>
+
+<div class="box">
+⭐ Subscribe
+</div>
+
+<div class="box">
+❤️ Personal Show
+</div>
+
+<div class="box">
+📷 Instagram
+</div>
+
+</div>
+
+</body>
+</html>
